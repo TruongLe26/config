@@ -2,3 +2,5 @@ example:
   property: I AM DEV FROM GIT
   new:
     property: NEW DEV
+  newest:
+    property: NEWEST DEV
