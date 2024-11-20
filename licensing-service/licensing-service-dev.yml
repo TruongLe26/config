@@ -4,3 +4,5 @@ example:
     property: NEW DEV
   newest:
     property: NEWEST DEV
+new:
+  property: NEW PROPERTY
