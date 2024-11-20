@@ -1,5 +1,5 @@
 example:
-  property: [UPDATED] I AM DEV FROM GIT
+  property: I AM UPDATED DEV FROM GIT
   new:
     property: NEW DEV
   newest:
