@@ -1,3 +1,12 @@
+eureka:
+  instance:
+    prefer-id-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      default-zone: http://localhost:8070/eureka/
+
 example:
   property: I AM UPDATED DEV FROM GIT
   new:
