@@ -5,12 +5,12 @@ server:
   port: 8070
 eureka:
   instance:
-    hostname: eurekaserver
+    hostname: localhost
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      default-zone: http://eurekaserver:8070/eureka/
+      default-zone: http://localhost:8070/eureka/
 #      default-zone: http://${eureka.instance.hostname}:${server.port}/eureka/
   server:
     wait-time-in-ms-while-sync-empty: 5
